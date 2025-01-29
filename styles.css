@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Comic Neue', cursive;
+  color: #ffcc00;
+}
+
+/* Header */
+header {
+  background-color: #121212;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ffcc00;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #ffcc00;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.imgur.com/xyz1234.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.cta-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e65c00;
+  transform: translateY(-5px);
+}
+
+/* Game Section */
+.game {
+  padding: 60px 0;
+  background-color: #121212;
+  text-align: center;
+}
+
+.game h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.game p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-btn {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+}
+
+.item-btn img {
+  width: 50px;
+  height: 50px;
+}
+
+.air-fryer {
+  text-align: center;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #ff6600;
+  transition: width 0.5s;
+}
+
+.fryer-img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.fryer-img:active {
+  transform: scale(0.95);
+}
+
+#fry-count {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #ffcc00;
+}
+
+/* About Section */
+.about {
+  padding: 60px 0;
+  background-color: #1a1a1a;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+  background-color: #121212;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #ffcc00;
+}
+
+footer .meme {
+  font-family: 'Comic Neue', cursive;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #ffcc00;
+}
